@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gabriola, cursive;
+    background-color: #fff5e6;
+    color: rgb(22, 13, 1);
+    line-height: 1.6;
+    overflow-x: hidden;
+
+}
+
+header {
+    background-color: #f4e1d2;
+    padding: 30px 0;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: last baseline;
+    gap: 40px;
+}
+header ul li a {
+    text-decoration: none;
+    color: rgb(22, 13, 1);
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+header ul li a:hover {
+    color: #d2691e;
+}
+
+.logo {
+    font-size: 7.5rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+.logo span {
+    color: #d2691e;
+}
+
+
+    .tagline {
+    font-size: 2.1rem;
+    text-align: right;
+}
+.tagline span {
+    color: #d2691e;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+header img {
+    width: 150px;
+    height: auto;
+    display: block;
+}
+
+.shop-now {
+  background: var(--accent);
+  color: #0a0000;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(240, 240, 237, 0.12);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.bg-img {
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    object-fit: cover;
+    display: block;
+    transition: transform 1s ease;}
